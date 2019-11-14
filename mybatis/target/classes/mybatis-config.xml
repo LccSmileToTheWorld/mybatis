@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--resource: 引入类路径下的资源-->
+    <!--<properties resource="db.properties"></properties>-->
+    <!--url：引入网络资源或磁盘资源-->
+    <properties url="file:///D://Project_Private//mybatis//src//main//resources//db.properties"/>
+
+
+    <!--
+		settings：包含很多重要的设置项
+		    setting：用来设置每一个设置项
+			    name：设置项名
+			    value：设置项取值
+	 -->
+    <settings>
+        <!-- 开启驼峰命名 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+
+    <typeAliases>
+        <!-- 1、typeAlias：为某个java类型起别名
+                    type：指定要起别名的类型全类名;
+                    alias：指定新的别名(可以不指定，默认别名就是类名小写：emp)
+        -->
+        <!--<typeAlias type="org.study.entity.Emp"></typeAlias>-->
+        <!-- 2、package：批量为指定包下的所有java类起别名
+                         默认为类名小写，可以在javaBean上加上@Alias("emp")注解，指定新的别名
+                    name：指定包名
+        -->
+        <package name="org.study.entity"></package>
+    </typeAliases>
+
+
+
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}" />
+                <property name="password" value="${jdbc.password}" />
+            </dataSource>
+        </environment>
+        <environment id="test">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc1.driver}" />
+                <property name="url" value="${jdbc1.url}" />
+                <property name="username" value="${jdbc1.username}" />
+                <property name="password" value="${jdbc1.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="EmpMapper.xml" />
+    </mappers>
+
+</configuration>
