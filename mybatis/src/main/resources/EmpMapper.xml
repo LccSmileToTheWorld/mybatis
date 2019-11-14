@@ -11,7 +11,8 @@
         WHERE  id = #{id}
     </select>
 
-    <insert id="" parameterType="" useGeneratedKeys="" keyProperty=""
-     databaseId="" flushCache="" keyColumn="" lang="" parameterMap=""
-    statementType="" timeout=""></insert>
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO emp(emp_name, salary, dept_id)
+        VALUES (#{empName}, #{salary}, #{deptId})
+    </insert>
 </mapper>

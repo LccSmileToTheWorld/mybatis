@@ -12,4 +12,6 @@ import org.study.entity.Emp;
 public interface EmpMapper {
 
     Emp getEmpById(Integer id);
+
+    int add(Emp emp);
 }
