@@ -5,9 +5,14 @@
 <mapper namespace="org.study.mapper.EmpMapper">
 
 
-    <select id="getEmpById" resultType="emp">
+    <select id="getEmpById" resultType="org.study.entity.Emp">
         SELECT id, emp_name, salary, dept_id
         FROM emp
         WHERE  id = #{id}
     </select>
+
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO emp(emp_name, salary, dept_id)
+        VALUES (#{empName}, #{salary}, #{deptId})
+    </insert>
 </mapper>

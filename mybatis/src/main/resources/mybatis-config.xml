@@ -7,7 +7,7 @@
     <!--resource: 引入类路径下的资源-->
     <!--<properties resource="db.properties"></properties>-->
     <!--url：引入网络资源或磁盘资源-->
-    <properties url="file:///D://Project_Private//mybatis//src//main//resources//db.properties"/>
+    <properties url="file:////F://Project//github//mybatis//mybatis//src//main//resources//db.properties"/>
 
 
     <!--
