@@ -16,8 +16,10 @@ import java.io.InputStream;
  */
 public class SqlSessionUtil {
 
+    public static String PATH = "mybatis-config.xml";
+
     public static SqlSessionFactory getSqlSessionFactory(String resource) throws IOException {
-        InputStream inputStream =  Resources.getResourceAsStream(resource);
+        InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         return builder.build(inputStream);
     }

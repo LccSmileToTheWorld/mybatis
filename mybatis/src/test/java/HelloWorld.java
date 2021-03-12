@@ -1,12 +1,10 @@
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 import org.study.entity.Emp;
 import org.study.mapper.EmpMapper;
-import org.study.utils.SqlSessionUtil;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,14 +19,12 @@ import java.io.InputStream;
  */
 public class HelloWorld {
 
-    private static String resource = "mybatis-config.xml";
-
     @Test
     public void test() throws IOException {
         //1、构建SqlSessionFactory
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         //1.1、通过xml
-        InputStream inputStream =  Resources.getResourceAsStream(resource);
+        InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
         SqlSessionFactory sqlSessionFactory = builder.build(inputStream);
         //1.2、直接配置Configuration对象
         //Configuration configuration = new Configuration();
@@ -44,7 +40,7 @@ public class HelloWorld {
             EmpMapper mapper = sqlSession.getMapper(EmpMapper.class);
             Emp emp = mapper.getEmpById(1);
             System.out.println(emp);
-        }finally {
+        } finally {
             //4、关闭SqlSession
             sqlSession.close();
         }

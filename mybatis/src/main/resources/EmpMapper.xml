@@ -8,7 +8,12 @@
     <select id="getEmpById" resultType="org.study.entity.Emp">
         SELECT id, emp_name, salary, dept_id
         FROM emp
-        WHERE  id = #{id}
+        WHERE  id = #{id1}
+    </select>
+    <select id="getEmpByIdName" resultType="org.study.entity.Emp">
+        SELECT id, emp_name, salary, dept_id
+        FROM emp
+        WHERE id=#{0} and emp_name = #{2}
     </select>
 
     <insert id="add" useGeneratedKeys="true" keyProperty="id">

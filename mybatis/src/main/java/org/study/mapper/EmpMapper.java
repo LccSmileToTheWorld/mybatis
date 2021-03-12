@@ -13,5 +13,7 @@ public interface EmpMapper {
 
     Emp getEmpById(Integer id);
 
+    Emp getEmpByIdName(Integer id, String empName);
+
     int add(Emp emp);
 }
