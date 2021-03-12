@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2e5e3f-d46c-432f-966e-c51c1768f660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/mapper/EmpMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/utils/SqlSessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/utils/SqlSessionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/EmpMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmpMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config-helloworld.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/study/mapper/EmpMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/study/mapper/EmpMapper.class" afterDir="false" />
-    </list>
+    <list default="true" id="1a2e5e3f-d46c-432f-966e-c51c1768f660" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="23">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/classes/EmpMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -62,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ParamTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -80,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/study/mapper/EmpMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -89,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/EmpMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -160,11 +145,6 @@
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -174,11 +154,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615527916936" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615528992727" />
     <property name="last_opened_file_path" value="F:/BTWX/repository/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
@@ -229,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615441827716</updated>
       <workItem from="1615441831796" duration="7353000" />
-      <workItem from="1615509741325" duration="4837000" />
+      <workItem from="1615509741325" duration="6215000" />
     </task>
     <servers />
   </component>
@@ -266,7 +246,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12190000" />
+    <option name="totallyTimeSpent" value="13568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +268,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3129771" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.44722718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.71556354" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="3" />
@@ -505,14 +485,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/EmpMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/study/mapper/EmpMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -533,7 +513,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ParamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -544,19 +524,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/EmpMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -580,6 +584,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mybatis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -594,6 +611,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
