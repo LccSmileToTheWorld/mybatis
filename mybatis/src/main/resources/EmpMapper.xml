@@ -13,7 +13,12 @@
     <select id="getEmpByIdName" resultType="org.study.entity.Emp">
         SELECT id, emp_name, salary, dept_id
         FROM emp
-        WHERE id=#{0} and emp_name = #{2}
+        WHERE id=#{arg0} and emp_name = #{param2}
+    </select>
+    <select id="getEmpByParam" resultType="org.study.entity.Emp">
+        SELECT id, emp_name, salary, dept_id
+        FROM emp
+        WHERE id=#{id} and emp_name = #{empName}
     </select>
 
     <insert id="add" useGeneratedKeys="true" keyProperty="id">

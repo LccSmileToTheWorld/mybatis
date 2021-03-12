@@ -38,6 +38,7 @@ public class HelloWorld {
             //Emp emp = sqlSession.selectOne("org.study.mapper.EmpMapper.getEmpById", 1);
             //3.2、通过SqlSession获取mapper接口代理对象，调用mapper接口中的方法
             EmpMapper mapper = sqlSession.getMapper(EmpMapper.class);
+            System.out.println(mapper.getClass());
             Emp emp = mapper.getEmpById(1);
             System.out.println(emp);
         } finally {

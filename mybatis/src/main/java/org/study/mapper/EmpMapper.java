@@ -1,5 +1,6 @@
 package org.study.mapper;
 
+import org.apache.ibatis.annotations.Param;
 import org.study.entity.Emp;
 
 /**
@@ -16,4 +17,6 @@ public interface EmpMapper {
     Emp getEmpByIdName(Integer id, String empName);
 
     int add(Emp emp);
+
+    Emp getEmpByParam(@Param("id") int id, @Param("empName") String empName);
 }
